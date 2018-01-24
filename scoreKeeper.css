@@ -1,0 +1,42 @@
+body {
+	font-family: 'Saira Condensed', sans-serif;
+	/*background: rgb(23, 23, 23);*/
+	text-align: center;
+}
+.winner {
+	color: #12FF12;
+	font-weight: 700;
+}
+#p1Span, #p2Span {
+	/*width: 100%;*/
+	font-size: 72px;
+	font-family: 'Space Mono', monospace;
+}
+#container {
+	background: #f9f9f9;
+	width: 340px;
+	height: 400px;
+	margin: 100px auto;
+	padding: 30px;
+	border: 2px solid gray;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+#title {
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 400;
+}
+input {
+/*	font-size: 18px;
+	color: #2980b9;
+	background-color: #f7f7f7;
+*/	width: 40%;
+	margin: 10px;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	border: 3px solid rgba(0,0,0,0);
+}
+.controls {
+	margin: 80px 0 0 0;
+}
